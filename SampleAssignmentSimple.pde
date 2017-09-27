@@ -15,6 +15,13 @@ void draw() {
   drawLight();
 }
 
+void redLight(){
+  if (state ==3){
+    fill(255, 0, 0);
+    ellipse(width/2, height/2 - 65, 50, 50); //top
+  }
+}
+  
 void drawOutlineOfLights() {
   //box
   rectMode(CENTER);
