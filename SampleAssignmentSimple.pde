@@ -13,6 +13,7 @@ void draw() {
   background(255);
   drawOutlineOfLights();
   drawLight();
+  redLight();
 }
 
 void redLight(){
